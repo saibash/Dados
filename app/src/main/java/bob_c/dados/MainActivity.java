@@ -127,7 +127,10 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Build message with the result
-        String msg = "You rolled a " + die1 + ", a " + die2 + ", and a " + die3;
+       // String msg = "You rolled a " + die1 + ", a " + die2 + ", and a " + die3;
+
+        String msg;
+
         // Update the app to display the result message
         rollResult.setText(msg);
 
